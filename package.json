@@ -1,0 +1,46 @@
+{
+  "name": "sparepaintingsforgood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tommeredith/sparepaintingsforgood.git",
+  "author": "Tom Meredith <tommeredith01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cypress": "^3.7.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fela": "^11.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-facebook-login": "^4.1.1",
+    "react-fela": "^11.0.2",
+    "react-google-login": "^5.0.7",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "refract-redux-rxjs": "^1.4.1",
+    "refract-redux-xstream": "^1.4.1",
+    "refract-rxjs": "^4.2.2",
+    "refract-xstream": "^4.2.2",
+    "webpack": "^4.38.0",
+    "webpack-dev-server": "^3.7.2",
+    "xstream": "^11.11.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "start": "webpack -p",
+    "build-and-serve": "webpack -p -w && node server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.6"
+  }
+}
